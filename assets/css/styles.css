@@ -6,6 +6,7 @@
 }
 
 html{
+    min-width: 700px;
     scroll-behavior: smooth;
 }
 
@@ -61,9 +62,10 @@ a{
     padding-top: 10vh;
     background: url('../img/banner.jpg');
     width: 100%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: max-content;
+    overflow: auto;
 
     display: flex;
     flex-direction: column;
